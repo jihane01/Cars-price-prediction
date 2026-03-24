@@ -1,0 +1,163 @@
+# ============================================
+# Python & Virtual Environment
+# ============================================
+
+# Virtual environment (uv creates .venv)
+.venv/
+venv/
+env/
+.env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================================
+# uv & Modern Python
+# ============================================
+
+# uv lock file (COMMIT this! It's important!)
+# Wait - actually, COMMIT uv.lock! It ensures reproducibility.
+# Only add if you want to ignore it (not recommended)
+# uv.lock
+
+# pyproject.toml is committed (don't ignore it!)
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ============================================
+# Data Files (IMPORTANT for ML projects!)
+# ============================================
+
+# Raw data (usually too big for Git)
+data/
+
+*.xlsx
+*.parquet
+*.h5
+*.hdf5
+
+# Model files (can be huge)
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Processed data
+processed_data/
+raw_data/
+interim_data/
+
+# ============================================
+# Environment & Secrets
+# ============================================
+
+# Environment variables (NEVER commit secrets!)
+.env
+.env.local
+.env.*.local
+.envrc
+
+# API keys, tokens
+secrets/
+credentials.json
+*.key
+*.pem
+
+# ============================================
+# IDE & Editor
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Cursor (AI editor)
+.cursor/
+.cursorrules
+
+# Vim
+*.swp
+*.swo
+
+# ============================================
+# OS Generated
+# ============================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*.bak
+
+# ============================================
+# Logs & Temporary Files
+# ============================================
+
+*.log
+*.tmp
+*.temp
+logs/
+tmp/
+temp/
+
+# ============================================
+# ML Specific
+# ============================================
+
+# TensorFlow
+*.pb
+*.ckpt
+
+# MLflow
+mlruns/
+mlflow.db
+
+# DVC (Data Version Control)
+.dvc/
+
+# WandB
+wandb/
