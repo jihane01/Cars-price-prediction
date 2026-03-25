@@ -83,6 +83,7 @@ dependencies = [
     { name = "pandas" },
     { name = "plotly" },
     { name = "scikit-learn" },
+    { name = "scipy" },
     { name = "seaborn" },
     { name = "streamlit" },
 ]
@@ -96,6 +97,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.0.1" },
     { name = "plotly", specifier = ">=6.6.0" },
     { name = "scikit-learn", specifier = ">=1.8.0" },
+    { name = "scipy", specifier = ">=1.17.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "streamlit", specifier = ">=1.19.0" },
 ]
