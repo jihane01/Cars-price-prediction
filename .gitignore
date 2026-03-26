@@ -65,7 +65,7 @@ data/
 *.hdf5
 
 # Model files (can be huge)
-*.pkl
+
 *.joblib
 *.h5
 *.keras
